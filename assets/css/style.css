@@ -19,6 +19,10 @@ body {
     padding-top: 20px;
 }
 
+#datatable {
+    font-size: 12px;
+}
+
 #map {
     width: auto;
     height: 75%;
