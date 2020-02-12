@@ -5,6 +5,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
 		type="text/css" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
@@ -12,7 +15,17 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.css"
 		type="text/css" />
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css" />
+
+	<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.css">
+	<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.20/js/jquery.dataTables.js">
+	</script>
+
+	<script src="script.js"></script>
+	<script src="artwork.js"></script>
+
 	<title>Vincent Van Gogh - Art Locator</title>
+
+
 </head>
 
 <body>
@@ -72,9 +85,9 @@
 					<br>
 
 					<div class="row">
-						<div id="location" class="col-md-12">
+						<div class="col-md-12">
 							<label for="city">City:</label>
-							<select class="custom-select d-block w-100" id="country"></select>
+							<select class="custom-select d-block w-100" id="location" name="location"></select>
 						</div>
 					</div>
 					<br>
@@ -86,29 +99,22 @@
 					</div>
 				</div>
 
-				<div id="result" class="col-md-8">
-					<table id="table_id" class="display">
+				<div id="datatable" class="col-md-8">
+
+					<table id="artwork" class="display" width="100%">
+
 						<thead>
 							<tr>
 								<th>Title</th>
-								<th>Date</th>
+								<th>Created In</th>
+								<th>Year</th>
 								<th>Current Location</th>
-								<th>Created in</th>
+								<th>City</th>
+								<th>Country</th>
 							</tr>
 						</thead>
 						<tbody>
-							<tr>
-								<td>Row 1 Data 1</td>
-								<td>Row 1 Data 2</td>
-								<td>Row 1 Data 3</td>
-								<td>Row 1 Data 4</td>
-							</tr>
-							<tr>
-								<td>Row 2 Data 1</td>
-								<td>Row 2 Data 2</td>
-								<td>Row 2 Data 3</td>
-								<td>Row 2 Data 4</td>
-							</tr>
+
 						</tbody>
 					</table>
 				</div>
@@ -146,8 +152,8 @@
 	<script async defer
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDDHHyac2SiOYPNYxXMK7rqJjnB8nCaaxE&callback=initMap">
 	</script>
-    <script src="assets/js/maps.js"></script>
-    
+	<script src="assets/js/maps.js"></script>
+
 </body>
 
 </html>
