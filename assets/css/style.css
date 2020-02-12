@@ -11,16 +11,23 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
-#search {
+#search-result {
     height: 100%;
+}
+
+#search {
+    
     background-image: url(../images/blossoming_almond_tree.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #datatable {
-    font-size: 12px;
+    background-color: #d0d0ac;
+    font-size: 10px;
+    padding-top: 20px;
 }
 
 #map {
@@ -35,6 +42,6 @@ footer {
     left: 0;
     bottom: 0;
     min-width: 150px;
-    background-color: #d0d0ac;
+    background-color: #90a178;
 }
 
