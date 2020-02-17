@@ -28,6 +28,20 @@ body {
     padding-top: 20px;
 }
 
+#divider {
+    font-family: "Lobster", sans-serif;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #343a40;
+    height: auto;
+
+}
+
+.carousel-item.active,{
+    display:block;
+}
+
 #map {
     width: auto;
     height: 75%;
@@ -40,6 +54,13 @@ footer {
     left: 0;
     bottom: 0;
     min-width: 150px;
-    background-color: #90a178;
+    background-color: #343a40;
+    color:#fff;
 }
 
+
+@media only screen and (max-width: 600px) {
+    #divider {
+        display: none;
+    }
+}
