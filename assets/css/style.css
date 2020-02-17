@@ -16,16 +16,14 @@ body {
 }
 
 #search {
-    
-    background-image: url(../images/blossoming_almond_tree.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #007b93;
+    color: #fff;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 #datatable {
-    background-color: #d0d0ac;
+    background-image: url(../images/blossoming_almond_tree.jpg);
     font-size: 10px;
     padding-top: 20px;
 }
