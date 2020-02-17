@@ -6,7 +6,7 @@ var dataSet = [
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/9/95/Portret_van_een_prostituee_-_s0143V1962_-_Van_Gogh_Museum.jpg'>Portrait of a Woman in Blue</a>","Antwerp",1885,"Van Gogh Museum","Amsterdam","Netherlands",52.35837,4.881087941],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/c/c1/Van_Gogh_-_Bildnis_einer_Frau_mit_rotem_Haarband_2.jpg'>Portrait of a Woman with Red Ribbon</a>","Antwerp",1885,"Private collection","","",0,0],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/f/fa/Portret_van_een_oude_man_-_s0061V1962_-_Van_Gogh_Museum.jpg'>Portrait of an Old Man with Beard</a>","Antwerp",1885,"Van Gogh Museum","Amsterdam","Netherlands",52.35837,4.881087941],
-    ["<a href='https://upload.wikimedia.org/wikipedia/commons/2/28/Kop_van_een_skelet_met_brandende_sigaret_-_s0083V1962_-_Van_Gogh_Museum.jpg'>Skull of a Skeleton with Burning Cigarette</a>","Antwerp",1885-1886,"Van Gogh Museum","Amsterdam","Netherlands",52.35837,4.881087941],
+    ["<a href='https://upload.wikimedia.org/wikipedia/commons/2/28/Kop_van_een_skelet_met_brandende_sigaret_-_s0083V1962_-_Van_Gogh_Museum.jpg'>Skull of a Skeleton with Burning Cigarette</a>","Antwerp",1886,"Van Gogh Museum","Amsterdam","Netherlands",52.35837,4.881087941],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/d/db/A_Field_of_Yellow_Flowers.jpg'>A Field of Yellow Flowers</a>","Arles",1889,"Kunstmuseum Winterthur","Winterthur","Switzerland",47.5017786,8.7303768],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/0/09/Van_Gogh_-_Weg_im_Park_von_Arles_mit_Spazierg%C3%A4ngern.jpeg'>A Lane in the Public Garden at Arles</a>","Arles",1888,"Kröller-Müller Museum","Otterlo","Netherlands",52.09591345,5.817829843],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/3/38/Van_Gogh_-_Allee_bei_Arles_mit_H%C3%A4usern.jpeg'>A Lane near Arles</a>","Arles",1888,"Pomeranian State Museum","Greifswald","Germany",54.09496285,13.38268181],
@@ -308,7 +308,7 @@ var dataSet = [
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/c/c8/Van_gogh_gordina_de_groot%2C_head_f141_jh783.jpg'>Gordina de Groot, Head</a>","Nuenen",1885,"Private collection","","",0,0],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/5/57/Van_Gogh_-_Kopf_einer_B%C3%A4uerin_mit_wei%C3%9Fer_Haube15.jpeg'>Gordinad de Groot, Hedad</a>","Nuenen",1885,"Private collection","","",0,0],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/6/68/Kop_van_een_man_-_s0068V1962r_-_Van_Gogh_Museum.jpg'>Head of a Man</a>","Nuenen",1885,"Van Gogh Museum","Amsterdam","Netherlands",52.35837,4.881087941],
-    ["<a href='https://upload.wikimedia.org/wikipedia/commons/5/5c/Kop_van_een_man_-_s0069V1962_-_Van_Gogh_Museum.jpg'>Head of a Man</a>","Nuenen",1884-85,"Van Gogh Museum","Amsterdam","Netherlands",52.35837,4.881087941],
+    ["<a href='https://upload.wikimedia.org/wikipedia/commons/5/5c/Kop_van_een_man_-_s0069V1962_-_Van_Gogh_Museum.jpg'>Head of a Man</a>","Nuenen",1885,"Van Gogh Museum","Amsterdam","Netherlands",52.35837,4.881087941],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/b/b2/Van_Gogh_-_Kopf_eines_Bauern.jpeg'>Head of a Peasant</a>","Nuenen",1885,"Kröller-Müller Museum","Otterlo","Netherlands",52.09591345,5.817829843],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/6/68/Van_Gogh_-_Kopf_eines_Bauern_mit_Tonpfeife.jpeg'>Head of a Peasant with a Pipe</a>","Nuenen",1885,"Kröller-Müller Museum","Otterlo","Netherlands",52.09591345,5.817829843],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/8/80/Vincent_van_Gogh_-_Head_of_a_peasant_-_Google_Art_Project.jpg'>Head of a Peasant with Cap</a>","Nuenen",1884,"Art Gallery of New South Wales","Sidney","Australia",-33.86882365,151.2172703],
@@ -345,8 +345,8 @@ var dataSet = [
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/8/8b/Kop_van_een_vrouw_-_s0084V1962_-_Van_Gogh_Museum.jpg'>Head of a Woman</a>","Nuenen",1885,"Van Gogh Museum","Amsterdam","Netherlands",52.35837,4.881087941],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/5/50/Van_Gogh_-_Kopf_einer_Barbanter_B%C3%A4uerin_mit_dunkler_Haube.jpeg'>Head of a Woman</a>","Nuenen",1885,"Kröller-Müller Museum","Otterlo","Netherlands",52.09591345,5.817829843],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/0/09/Van_Gogh_-_Kopf_einer_alten_B%C3%A4uerin_mit_dunkler_Haube.jpeg'>Head of a Woman</a>","Nuenen",1885,"Kröller-Müller Museum","Otterlo","Netherlands",52.09591345,5.817829843],
-    ["<a href='https://upload.wikimedia.org/wikipedia/commons/b/bb/Kop_van_een_vrouw_-_s0343V1966_-_Van_Gogh_Museum.jpg'>Head of a Woman</a>","Nuenen",1884-85,"Van Gogh Museum","Amsterdam","Netherlands",52.35837,4.881087941],
-    ["<a href='https://upload.wikimedia.org/wikipedia/commons/7/7a/Kop_van_een_vrouw_-_s0072V1962_-_Van_Gogh_Museum.jpg'>Head of a Woman</a>","Nuenen",1884-85,"Van Gogh Museum","Amsterdam","Netherlands",52.35837,4.881087941],
+    ["<a href='https://upload.wikimedia.org/wikipedia/commons/b/bb/Kop_van_een_vrouw_-_s0343V1966_-_Van_Gogh_Museum.jpg'>Head of a Woman</a>","Nuenen",1885,"Van Gogh Museum","Amsterdam","Netherlands",52.35837,4.881087941],
+    ["<a href='https://upload.wikimedia.org/wikipedia/commons/7/7a/Kop_van_een_vrouw_-_s0072V1962_-_Van_Gogh_Museum.jpg'>Head of a Woman</a>","Nuenen",1885,"Van Gogh Museum","Amsterdam","Netherlands",52.35837,4.881087941],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/7/72/Van_Gogh_-_Kopf_eines_jungen_Bauern_mit_M%C3%BCtze2.jpeg'>Head of a Young Peasant with a Peaked Cap</a>","Nuenen",1885,"Nelson-Atkins Museum of Art","Kansas City","United States",39.0449664,-94.5809582],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/5/5f/Van_Gogh_-_Kopf_eines_jungen_Bauern_mit_M%C3%BCtze.jpeg'>Head of a Young Peasant with a Peaked Cap</a>","Nuenen",1885,"Royal Museums of Fine Arts of Belgium","Brussels","Belgium",50.8416804,4.3582377],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/b/b5/Van_Gogh_-_Kopf_einer_jungen_B%C3%A4uerin_mit_dunkler_Haube.jpeg'>Head of a Young Peasant Woman with Dark Cap</a>","Nuenen",1885,"Kröller-Müller Museum","Otterlo","Netherlands",52.09591345,5.817829843],
@@ -403,7 +403,7 @@ var dataSet = [
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/a/af/Van_Gogh_-_Stillleben_mit_Steingut_und_Holzschuhen.jpeg'>Still Life with Clogs and Pots</a>","Nuenen",1884,"Centraal Museum","Utrecht","Netherlands",52.0836118,5.125663768],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/3/39/Van_Gogh_-_Stillleben_mit_Bartmannkrug%2C_Kaffeem%C3%BChle_und_Pfeifenetui.jpeg'>Still Life with Coffee Mill, Pipe Case and Jug</a>","Nuenen",1884,"Kröller-Müller Museum","Otterlo","Netherlands",52.09591345,5.817829843],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/0/08/Van_gogh_Still_Life_with_Copper_Coffeepot_and_Two_White_Bowls_f202.jpg'>Still Life with Copper Coffeepot and Two White Bowls</a>","Nuenen",1885,"Private collection","","",0,0],
-    ["<a href='https://upload.wikimedia.org/wikipedia/commons/6/60/Stilleven_met_aardewerk_en_flessen_-_s0138V1962_-_Van_Gogh_Museum.jpg'>Still Life with Earthenware and Bottles</a>","Nuenen",1884-85,"Van Gogh Museum","Amsterdam","Netherlands",52.35837,4.881087941],
+    ["<a href='https://upload.wikimedia.org/wikipedia/commons/6/60/Stilleven_met_aardewerk_en_flessen_-_s0138V1962_-_Van_Gogh_Museum.jpg'>Still Life with Earthenware and Bottles</a>","Nuenen",1885,"Van Gogh Museum","Amsterdam","Netherlands",52.35837,4.881087941],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/6/63/Van_Gogh_-_Stillleben_mit_Tontopf%2C_Flasche_und_Holzschuhen.jpeg'>Still Life with Earthenware, Bottle and Clogs</a>","Nuenen",1885,"Kröller-Müller Museum","Otterlo","Netherlands",52.09591345,5.817829843],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/9/99/Van_Gogh_-_Stillleben_mit_Flaschen.jpeg'>Still Life with Five Bottles</a>","Nuenen",1884,"Österreichische Galerie Belvedere","Vienna","Austria",48.1915344,16.3787253],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/9/9f/Van_Gogh_-_Stillleben_mit_vier_Kr%C3%BCgen%2C_Flasche_und_wei%C3%9Fen_Napf.jpeg'>Still Life with Four Stone Bottles, Flask and White Cup</a>","Nuenen",1884,"Kröller-Müller Museum","Otterlo","Netherlands",52.09591345,5.817829843],
@@ -444,7 +444,7 @@ var dataSet = [
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/6/6c/Van_Gogh_-_Zwei_B%C3%A4uerinnen_beim_Kartoffelgraben.jpeg'>Two Peasant Woman Digging Potatoes</a>","Nuenen",1885,"Kröller-Müller Museum","Otterlo","Netherlands",52.09591345,5.817829843],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/b/ba/Van_gogh-two_rats-f177.jpg'>Two Rats</a>","Nuenen",1884,"Private collection","","",0,0],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/3/37/Van_Gogh_-_Vase_mit_verwelkten_Bl%C3%A4tter.jpeg'>Vase with Dead Leaves</a>","Nuenen",1884,"Private collection","","",0,0],
-    ["<a href='https://upload.wikimedia.org/wikipedia/commons/9/91/Vaas_met_judaspenningen_-_s0009V1962_-_Van_Gogh_Museum.jpg'>Vase with Honesty</a>","Nuenen", 1884-85,"Van Gogh Museum","Amsterdam","Netherlands",52.35837,4.881087941],
+    ["<a href='https://upload.wikimedia.org/wikipedia/commons/9/91/Vaas_met_judaspenningen_-_s0009V1962_-_Van_Gogh_Museum.jpg'>Vase with Honesty</a>","Nuenen",1885,"Van Gogh Museum","Amsterdam","Netherlands",52.35837,4.881087941],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/6/67/Van_Gogh_-_Stadtansicht_mit_Gracht_und_Zugbr%C3%BCcke.jpeg'>View of a Town with Drawbridge</a>","Nuenen",1885,"Private collection","","",0,0],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/c/c8/Van_Gogh_-_Blick_auf_Amsterdam_vom_Hauptbahnhof.jpeg'>View of Amsterdam from Central Station</a>","Nuenen",1885,"Private collection","","",0,0],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/4/4a/Van_Gogh_-_Dorf_bei_Sonnenuntergang.jpeg'>Village at Sunset</a>","Nuenen",1884,"Rijksmuseum","Amsterdam","Netherlands",52.3598759,4.885058432],
@@ -855,7 +855,7 @@ var dataSet = [
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/1/18/Stilleven_met_kool_en_klompen_-_s0137V1962_-_Van_Gogh_Museum.jpg'>Still Life with Cabbage and Clogs</a>","The Hague",1881,"Van Gogh Museum","Amsterdam","Netherlands",52.35837,4.881087941],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/6/68/Two_women_in_a_wood_-_VINCENT_VAN_GOGH_%281853-1890%29_12_1-4_x_9_7-16in._%2831_x_24cm%29.jpg'>Two Women in the Woods</a>","The Hague",1882,"Private collection","","",0,0],
     ["<a href='https://upload.wikimedia.org/wikipedia/commons/b/bb/Van_Gogh_-_Landschaft_mit_Netzflickerinnen.jpeg'>Women Mending Nets in the Dunes</a>","The Hague",1882,"Private collection","","",0,0]
-  ];
+  ]
 
 $(document).ready(function() {
     $('#artwork').DataTable( {
