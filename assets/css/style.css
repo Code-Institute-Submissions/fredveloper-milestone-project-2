@@ -22,6 +22,22 @@ body {
     padding-bottom: 20px;
 }
 
+.btn-primary {
+    background-color: #343a40;
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open>.dropdown-toggle.btn-primary {
+    background-color: #000;
+    color: #fff;
+    border-color: #fff;
+}
+
 #datatable {
     background-image: url(../images/blossoming_almond_tree.jpg);
     font-size: 10px;
@@ -36,10 +52,6 @@ body {
     background-color: #343a40;
     height: auto;
 
-}
-
-.carousel-item.active,{
-    display:block;
 }
 
 #map {
