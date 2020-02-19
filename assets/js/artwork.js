@@ -858,7 +858,8 @@ var dataSet = [
   ]
 
 $(document).ready(function() {
-    $('#artwork').DataTable( {
+    var artwork = $('#artwork').DataTable( {
+        sDom: 'lrtip',
         data: dataSet,
         columns: [
             { title: "Title" },
@@ -869,4 +870,8 @@ $(document).ready(function() {
             { title: "Country" }
         ]
     } );
+
+    $('#customSearchBox').keyup(function(){
+        artwork.search($(this).val()).draw() ;
+    })
 } );

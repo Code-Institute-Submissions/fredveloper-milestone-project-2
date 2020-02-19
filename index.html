@@ -39,7 +39,8 @@
 </head>
 
 <body>
-	<!--This is the Header-->
+	
+    <!--This is the Header-->
 
 	<header>
 		<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top-custom">
@@ -50,67 +51,25 @@
 		</nav>
 	</header>
 
-	<!--This is the search-result section-->
-	<section id="search-result">
+	<!--This is the search section-->
+	
+    <section id="search-section">
 		<div class="container-fluid">
 			<div class="row content-block">
-				<div id="search" class="col-md-4 content">
+				<div id="search" class="col-md-3 content py-5">
 					<h3>Vincent Van Gogh is today one of the most popular of the Post-Impressionist painters</h3>
 					<br>
 					<h5>Locate the paintings of this iconic Dutch artist:</h5>
 					<br>
-
-					<div class="row">
-						<div class="col-md-12">
-							<label for="country">Country:</label>
-							<select class="custom-select d-block w-100" id="country">
-                                <option value="all" selected>All</option>
-								<option value="ar">Argentina</option>
-								<option value="au">Australia</option>
-								<option value="at">Austria</option>
-								<option value="be">Belgium</option>
-								<option value="br">Brazil</option>
-								<option value="ca">Canada</option>
-								<option value="cz">Czech Republic</option>
-								<option value="dk">Denmark</option>
-								<option value="fi">Finland</option>
-								<option value="fr">France</option>
-								<option value="de">Germany</option>
-								<option value="ie">Ireland</option>
-								<option value="il">Israel</option>
-								<option value="it">Italy</option>
-								<option value="jp">Japan</option>
-								<option value="mx">Mexico</option>
-								<option value="nl">Netherlands</option>
-								<option value="pl">Poland</option>
-								<option value="ru">Russia</option>
-								<option value="rs">Serbia</option>
-								<option value="es">Spain</option>
-								<option value="se">Sweden</option>
-								<option value="ch">Switzerland</option>
-								<option value="gb">United Kingdom</option>
-								<option value="us">United States</option>
-                            </select>
-						</div>
-					</div>
-					<br>
-
-					<div class="row">
-						<div class="col-md-12">
-							<label for="city">City:</label>
-							<select class="custom-select d-block w-100" id="location" name="location"></select>
-						</div>
-					</div>
-					<br>
-
-					<div class="row">
-						<div class="col-md-12">
-							<a href="#" class="btn btn-primary float-right uppercase">Search</a>
-						</div>
-					</div>
+                    <br>
+                    <div class="form-inline active-cyan-3 active-cyan-4 mb-4">
+						<i class="fas fa-search" aria-hidden="true"></i>
+						<input id="customSearchBox" class="form-control form-control-sm ml-3 w-75" type="text"
+							placeholder="Search" aria-label="Search" muted>
+					</div>					
 				</div>
 
-				<div id="datatable" class="col-md-8">
+				<div id="datatable" class="col-md-9">
 
 					<table id="artwork" class="display responsive" width="100%">
 
@@ -133,18 +92,21 @@
 		</div>
 	</section>
 
-	<!--This is the location section-->
-<section id="divider">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-12 py-3">
-          <h4>I want to touch people with my art. I want them to say 'he feels deeply, he feels tenderly'.</h4>
-        </div>
-      </div>
-    </div>
-  </section>
+    <!--This is the divider section-->
+	
+    <section id="divider-section">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-md-12 py-3">
+					<h5>"I want to touch people with my art. I want them to say 'he feels deeply, he feels tenderly'." - Vincent Van Gogh</h5>
+				</div>
+			</div>
+		</div>
+	</section>
 
-	<section id="location">
+	<!--This is the location section-->
+
+	<section id="map-area">
 		<div class="container-fluid">
 			<div class="row content-block">
 				
@@ -155,9 +117,7 @@
 		</div>
 	</section>
 
-
 	<!--This is the Footer-->
-
 
 	<footer class="container-fluid page-footer">
 		<div class="footer-copyright text-center py-3">© 2020 Copyright:
