@@ -58,6 +58,11 @@ footer {
     color:#fff;
 }
 
+.page-footer .footer-copyright a {
+    color:#fff;
+    text-decoration: none;
+}
+
 @media only screen and (max-width: 600px) {
     #divider {
         display: none;
