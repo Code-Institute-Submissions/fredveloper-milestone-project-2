@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700|Courgette:100,200,300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora:100,200,300,400,500,600,700|Courgette:100,200,300,400,500,600,700&display=swap');
 
 html {
     width: 100%;
@@ -8,13 +8,21 @@ html {
 body {
     margin: 0;
     min-height: 100%;
-    font-family: "Montserrat", sans-serif;
-
-}.content-block .content {
-    padding: 80px 40px;;
-    text-align: justify;
-    vertical-align: middle;
+    font-family: "Lora", sans-serif;
 }
+
+/*------Text------*/
+
+.hand-writing{
+    font-family: "Courgette", sans-serif;;
+}
+
+.content-block .content {
+    padding: 80px 30px;;
+    text-align: center;
+}
+
+/*------Search Section------*/
 
 #search-section {
     height: 100%;
@@ -29,9 +37,17 @@ body {
 
 #datatable {
     background-image: url(../images/blossoming_almond_tree.jpg);
-    font-size: 10px;
+    font-size: 12px;
     padding-top: 20px;
 }
+
+#map {
+    width: auto;
+    height: 75%;
+    }
+    div#map {min-height: 360px;}
+
+/*------Divider Section------*/
 
 #divider-section {
     font-family: "Courgette", sans-serif;
@@ -42,11 +58,7 @@ body {
     height: auto;
 }
 
-#map {
-    width: auto;
-    height: 75%;
-    }
-    div#map {min-height: 360px;}
+/*------Footer Section------*/
 
 footer {
     height: 50px;
@@ -57,6 +69,8 @@ footer {
     background-color: #343a40;
     color:#fff;
 }
+
+/*------Media Queries------*/
 
 .page-footer .footer-copyright a {
     color:#fff;
