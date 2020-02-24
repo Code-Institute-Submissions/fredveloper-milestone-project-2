@@ -7,12 +7,12 @@ The site has a dynamic search table that provides detailed information about Van
 
 It also has a map that shows the exact location of the paintings and provides direct links to the relevant museums and galleries.
 
-##Demo
+## Demo
 A live demo can be found [here](https://fredveloper.github.io/milestone-project2/).
 
 Github repository: https://github.com/fredveloper/milestone-project2/
 
-##UX
+## UX
 My goal in the design was to create a user-friendly, dynamic, and responsive interface for all type of users. The site consists of three sections (search area, data table area, map area) that allow the users to navigate and find specific details about Vincent Van Gogh paintings.
 
 The initial designed was done with [Moqups](https://moqups.com/). See mockups [here](https://github.com/fredveloper/milestone-project-2/assets/images/mockups).
@@ -28,7 +28,7 @@ The famous "Almond Blossoms" painting inspired the scheme colour selection.
 5. Bootstrap (v4.3.1)
 7. Google Maps API
 
-##Features
+## Features
 
 The colour scheme gives the website a classic and elegant look.
 The search bar allows users to browse using keywords: painting name, place, city, country, etc.
@@ -39,11 +39,11 @@ A data table is presented as an intuitive, flexible and fast tool in this websit
 
 The map displays the pins for all the museums that host Van Gogh's paintings. The users can zoom in and out, click on the markers to find information about the museums/galleries.
 
-###Features left to implement
+### Features left to implement
 
 In the near future, I would like to incorporate more features to this project: clickable rows to display the markers dynamically on the map, and also a pie chart to display the number of paintings in each country.
 
-##Testing
+## Testing
 
 The users can access all the sections of the website from mobile and desktop devices.
 
