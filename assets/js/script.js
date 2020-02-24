@@ -43,7 +43,7 @@ function initMap() {
   
       google.maps.event.addListener(marker, 'click', (function (marker, i) {
         return function () {
-          infowindow.setContent("<i class='fas fa-map-marked-alt'></i> " + dataSet[i][5]) ;
+          infowindow.setContent("<i class='fas fa-map-marked-alt'></i> " + dataSet[i][5] + "<br />" + "<i class='fas fa-globe-americas'></i> " + "Website: " + dataSet[i][8]);
           infowindow.open(map, marker);
         }
       })(marker, i));
