@@ -15,7 +15,7 @@ Github repository: https://github.com/fredveloper/milestone-project-2/
 ## UX
 My goal in the design was to create a user-friendly, dynamic, and responsive interface for all type of users. The site consists of three sections (search area, data table area, map area) that allow the users to navigate and find specific details about Vincent Van Gogh paintings.
 
-The initial designed was done with [Moqups](https://moqups.com/). See mockups [here](https://github.com/fredveloper/milestone-project-2/assets/images/mockups).
+The initial designed was done with [Moqups](https://moqups.com/). See mockups [here](https://github.com/fredveloper/milestone-project-2/blob/master/assets/images/mockups/).
 
 The famous "Almond Blossoms" painting inspired the scheme colour selection.
 
