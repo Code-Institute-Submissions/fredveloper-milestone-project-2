@@ -8,9 +8,9 @@ The site has a dynamic search table that provides detailed information about Van
 It also has a map that shows the exact location of the paintings and provides direct links to the relevant museums and galleries.
 
 ## Demo
-A live demo can be found [here](https://fredveloper.github.io/milestone-project2/).
+A live demo can be found [here](https://fredveloper.github.io/milestone-project-2/).
 
-Github repository: https://github.com/fredveloper/milestone-project2/
+Github repository: https://github.com/fredveloper/milestone-project-2/
 
 ## UX
 My goal in the design was to create a user-friendly, dynamic, and responsive interface for all type of users. The site consists of three sections (search area, data table area, map area) that allow the users to navigate and find specific details about Vincent Van Gogh paintings.
